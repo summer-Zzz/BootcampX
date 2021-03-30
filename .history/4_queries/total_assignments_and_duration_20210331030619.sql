@@ -1,0 +1,1 @@
+SELECT assignments.day, COUNT(assignments.*) AS number_of_assignments, 

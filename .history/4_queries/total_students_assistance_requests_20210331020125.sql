@@ -1,0 +1,1 @@
+SELECT COUNT(assistance_requests.*)
