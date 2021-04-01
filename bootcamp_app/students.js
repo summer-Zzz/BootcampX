@@ -17,7 +17,7 @@ JOIN cohorts ON cohorts.id = cohort_id
 WHERE cohorts.name LIKE $1
 LIMIT $2;
 `
-pool.query(queryString, values);
+pool.query(queryString, values) 
 
 .then(res => {
   res.rows.forEach(user => {
